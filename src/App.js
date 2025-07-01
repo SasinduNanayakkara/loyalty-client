@@ -1,9 +1,10 @@
+import PageRouter from "./routes/PageRouter";
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to My React App</h1>
+      <PageRouter/>
     </div>
   );
 }
